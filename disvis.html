@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container1,
+        .container2 {
+            width: 300px;
+            height: 300px;
+        }
+
+        .container1 {
+            background-color: red;
+        }
+
+        .container2 {
+            background-color: blue;
+            visibility: hidden;
+        }
+
+        .container:hover .container1 {
+            visibility: hidden;
+        }
+
+        .container:hover .container2 {
+            visibility: visible;
+        }
+    </style>
+    <title>disvis</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <h1 class="a">A</h1>
+        </div>
+        <div class="container2">
+            <h1 class="b">B</h1>
+        </div>
+    </div>
+</body>
+
+</html>

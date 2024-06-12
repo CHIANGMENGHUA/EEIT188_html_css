@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+        @font-face {
+            font-family: font1;
+            src: url(fonts/JustOldFashion.ttf);
+        }
+
+        @font-face {
+            font-family: font2;
+            src: url(fonts/SCRIPTIN.ttf);
+        }
+
+        h1 {
+            color: brown;
+        }
+
+        .h1H1 {
+            color: aqua;
+        }
+
+        #h1H1h1 {
+            color: blueviolet;
+        }
+
+        #h11 {
+            font-family: font1;
+        }
+
+        #h12 {
+            font-family: font2;
+        }
+
+        .monoton-regular {
+            font-family: "Monoton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+    <title>嵌入style</title>
+</head>
+
+<body>
+    <h1 id="h11">apple</h1>
+    <h1 id="h12">apple</h1>
+    <h1 class="monoton-regular">banana</h1>
+    <h1 class="h1H1">apple</h1>
+    <h1 class="h1H1" id="h1H1h1">apple</h1>
+    <h1 id="h1H1h1" class="h1H1">apple</h1>
+    <p>Hello</p>
+</body>
+
+<script>
+    document.querySelector("h1").style.color = "blue";
+</script>
+
+</html>

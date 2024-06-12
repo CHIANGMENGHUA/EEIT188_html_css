@@ -1,0 +1,28 @@
+.list1 {
+    list-style-type: circle;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 10px;
+    border-radius: 50px;
+}
+
+.list2 {
+    list-style-image: url("../images/icons8-arrow-30.png");
+    border-radius: 20px;
+}
+
+.list3 {
+    list-style-image: none;
+    list-style-type: upper-roman;
+    border-radius: 20px;
+}
+
+.in {
+    list-style-position: inside;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.out {
+    list-style-position: outside;
+}
